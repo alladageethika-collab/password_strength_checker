@@ -15,17 +15,11 @@ for k in p:
     if k.isupper():
         contains_upper=True
 c=0
-if contains_special:
-    print("Contains special character")
-else:
+if not contains_special:
     print("Must contain a special character")
-if contains_digit:
-    print("Contains digit")
-else:
+if not contains_digit:
     print("Must contain a digit")
-if contains_upper:
-    print("Contains uppercase")
-else:
+if not contains_upper:
     print("Must contain uppercase alphabet")
 if contains_special:
     c=c+1 
@@ -40,4 +34,5 @@ if c<=1:
 elif c>=2 and c<=3:
     print("Password Strength:Medium")
 else:
+
     print("Password Strength:Strong")
