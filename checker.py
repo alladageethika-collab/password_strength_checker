@@ -42,6 +42,6 @@ elif c>=3 and c<=4:
     print("Password Strength:Medium")
 else:
     print("Password Strength:Strong")
-else:
-    print("Password Strength:Strong")
+
+
 
